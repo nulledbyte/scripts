@@ -32,4 +32,4 @@ if __name__ == '__main__':
     default_gw = get_default_gateway_linux()
     
     for g in default_gw:
-    	print(get_mac(default_gw))
+    	print(get_mac(g))
